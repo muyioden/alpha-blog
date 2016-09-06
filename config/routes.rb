@@ -7,4 +7,8 @@ Rails.application.routes.draw do
   # Pages section
   root "pages#home"
   get 'about', to: "pages#about"
+
+  # Routes for Article Model
+  resources :articles
+
 end
