@@ -56,5 +56,10 @@ footer ul {
   font-weight: bold;
   list-style: none;
 }
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
 @import "bootstrap-sprockets";
 @import "bootstrap";
