@@ -1,2 +1,60 @@
+$navbar-default-bg: black;
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: asset-url('womanils.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron h1 {
+  color: #fff !important;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 350px;
+}
+
+.btn-xlarge {
+  font-size: 1.7em !important;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: solid 1px;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+footer small {
+
+  float: left;
+}
+
+footer ul {
+  float: right;
+  font-weight: bold;
+  list-style: none;
+}
 @import "bootstrap-sprockets";
 @import "bootstrap";
