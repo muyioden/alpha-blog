@@ -11,4 +11,8 @@ Rails.application.routes.draw do
   # Routes for Article Model
   resources :articles
 
+  #Routes for User Model
+  get 'signup', to: "users#new"
+  resources :users, except: [:new]
+
 end
