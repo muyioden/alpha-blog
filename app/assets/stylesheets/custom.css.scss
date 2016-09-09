@@ -86,5 +86,9 @@ footer ul li {
   border-top: 1px solid #eaeaea;
   margin-top: 15px;
 }
+.listing {
+  padding-top: 0px;
+  list-style: none;
+}
 @import "bootstrap-sprockets";
 @import "bootstrap";
