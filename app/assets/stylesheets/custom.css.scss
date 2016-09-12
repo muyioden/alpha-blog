@@ -77,7 +77,7 @@ footer ul li {
 }
 
 .article-body {
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #ccffff;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -89,6 +89,16 @@ footer ul li {
 .listing {
   padding-top: 0px;
   list-style: none;
+}
+
+.badge {
+  background-color: #cef6f5 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
 @import "bootstrap-sprockets";
 @import "bootstrap";
